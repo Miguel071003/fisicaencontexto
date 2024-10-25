@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/fondo.jfif" type="image/jfif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../scrip/movimiento.js"></script>
+    <link rel="stylesheet" href="preguntas.css">
+</head>
+<body>
+    <div class="encabezado">
+        <h1>Preguntas del Tema</h1>
+    </div>
+    <div class="contenido">
+        <h2>Movimiento O Reposo</h2>
+        <h3>Explicación rápida:
+            <ul>
+                <li>Movimiento: Cuando algo cambia de lugar en un tiempo determinado.</li>
+                <li>Reposo: Cuando algo permanece en el mismo lugar sin moverse.</li>
+            </ul>
+        </h3>
+    
+    <!--preguntas-->
+
+        <p>Ahora responde las siguientes preguntas</p>
+        <section id="p0" class="espacio_pregunta">
+            <h4>   Un gato está durmiendo en el sofá durante 10 minutos. ¿Está en movimiento o en reposo?  </h4>
+            <label onclick="respuesta(0, this)">
+                <input type="radio" name="pregunta0" value="R"> Reposo
+            </label>
+            <label onclick="respuesta(0, this)">
+                <input type="radio" name="pregunta0" value="M"> Movimiento
+            </label>
+        </section>
+
+        <section id="p1" class="espacio_pregunta">
+            <h4>   Una pelota es pateada por un niño y rueda por el patio. ¿Está en movimiento o en reposo? </h4>
+            <label onclick="respuesta(1, this)">
+                <input type="radio" name="pregunta1" value="R"> Reposo
+            </label>
+            <label onclick="respuesta(1, this)">
+                <input type="radio" name="pregunta1" value="M"> Movimiento
+            </label>
+        </section>
+
+        <section id="p2" class="espacio_pregunta">
+            <h4>   Un carro está estacionado en el mismo lugar por 2 horas. ¿Está en movimiento o en reposo? </h4>
+            <label onclick="respuesta(2, this)">
+                <input type="radio" name="pregunta2" value="R"> Reposo
+            </label>
+            <label onclick="respuesta(2, this)">
+                <input type="radio" name="pregunta2" value="M"> Movimiento
+            </label>
+        </section>
+
+        <section id="p3" class="espacio_pregunta">
+            <h4>   Una hoja cae lentamente de un árbol por el viento. ¿Movimiento o reposo? </h4>
+            <label onclick="respuesta(3, this)">
+                <input type="radio" name="pregunta3" value="R">  Reposo
+            </label>
+            <label onclick="respuesta(3, this)">
+                <input type="radio" name="pregunta3" value="M">  Movimiento
+            </label>
+        </section>
+
+        <section id="p4" class="espacio_pregunta">
+            <h4>   Una bicicleta se queda quieta en la esquina después de que su dueño la estaciona. ¿Está en movimiento o reposo? </h4>
+            <label onclick="respuesta(4, this)">
+                <input type="radio" name="pregunta4" value="R"> Reposo
+            </label>
+            <label onclick="respuesta(4, this)">
+                <input type="radio" name="pregunta4" value="M"> Movimiento
+            </label>
+        </section>
+        <button onclick="corregir()">Corregir</button>
+        <h2>Número de respuestas correctas<span id="resultado"></span></h2>
+    </div>
+    <div class="contenedor-botones">
+        <a href="factores.html" class="boton"><</a>
+        <a href="qué_es.html" class="boton">></a>
+        <a href="../movimiento.html" class="boton">Regresar</a>
+    <!--div:botones-->
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Creador de la página: <strong>Miguel Angel Jimenez Pérez</strong></p>
+            <p>Grupo: <strong>5Bm</strong></p>
+            <p>SyMec</p>
+            <p>Redes sociales: <strong>Instagram:</strong> <a href="https://instagram.com/miguel_jp1003" target="_blank">@miguel_jp1003</a></p>
+            <p>Escuela: <strong>Cetis 141 "DR. Manuel Gamio"</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/fondo.jfif" type="image/jfif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energía</title>
+    <link rel="stylesheet" href="preguntas.css">
+    <script src="../scrip/energía.js"></script>
+</head>
+<body>
+    <div class="encabezado">
+        <h1>Preguntas del tema</h1>
+    </div>
+    <div class="contenido">
+        <!--subititulo-->
+        <h2>Tranformando Energía</h2>
+        
+    <!--explicación-->
+        <h3>Explicación rápida: la energía es como una fuerza que permite que las cosas hagan su trabajo, y 
+        que esta energía no desaparece ni se crea, sino que puede cambiar de una forma a otra.</h3>
+        
+    <!--parrafo-->        
+        <p>Ahora responde las preguntas</p>
+
+            <!--class:espacio_pregunta-->
+        <!--pregunta 1-->
+            <section id="p0" class="espacio_pregunta">
+                <h4>Cuando enciendes una lámpara, la bombilla se ilumina. ¿Qué tipo de energía está usando la lámpara?</h4>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> a) Energía térmica
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> b) Energía solar
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> c) Energía eléctrica
+                </label>
+            </section>
+
+        <!--pregunta 2-->
+            <section id="p1" class="espacio_pregunta">
+                <h4>Un niño sube a lo alto de un tobogán y se queda quieto arriba. ¿Qué tipo de energía tiene en ese momento?</h4>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> a) Energía térmica
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> b) Energía potencial
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> c) Energía eléctrica
+                </label>
+            </section>        
+
+        <!--pregunta 3-->
+            <section id="p2" class="espacio_pregunta">
+                <h4>Cuando cocinas un huevo en una sartén caliente, ¿qué tipo de energía está calentando el huevo?</h4>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> a) Energía térmica
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> b) Energía eléctrica
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> c) Energía mecánica
+                </label>
+            </section>        
+
+        <!--pregunta 4-->
+            <section id="p3" class="espacio_pregunta">
+                <h4>Cuando usas una batería para hacer funcionar un coche de juguete, ¿qué tipo de energía está dentro de la batería?</h4>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> a) Energía cinética
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> b) Energía solar
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> c) Energía química
+                </label>
+            </section>        
+
+        <!--pregunta 5-->
+            <section id="p4" class="espacio_pregunta">
+                <h4>Cuando estás corriendo, ¿qué tipo de energía estás usando para moverte?</h4>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> a) Energía potencial
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> b) Energía cinética
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> c) Energía eléctrica
+                </label>
+            </section>
+
+    <!--boton para corregir-->
+            <!--class:corregir-->
+        <button onclick="corregir()" class="corregir">CORREGIR</button>
+            
+    <!--respuestas correctas-->
+            <h2>Número de respuestas correctas<span id="resultado"></span></h2>
+    </div>
+    <div class="contenedor-botones">
+        <a href="cambio de estados.html" class="boton"><</a>
+        <a href="qué_es.html" class="boton">></a>
+        <a href="../materia..html" class="boton">Regresar</a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Creador de la página: <strong>Miguel Angel Jimenez Pérez</strong></p>
+            <p>Grupo: <strong>5Bm</strong></p>
+            <p>SyMec</p>
+            <p>Redes sociales: <strong>Instagram:</strong> <a href="https://instagram.com/miguel_jp1003" target="_blank">@miguel_jp1003</a></p>
+            <p>Escuela: <strong>Cetis 141 "DR. Manuel Gamio"</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/fondo.jfif" type="image/jfif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuerza</title>
+    <script src="../scrip/fuerza.js"></script>
+    <link rel="stylesheet" href="preguntas.css">
+</head>
+<body>
+    <div class="encabezado">
+        <h1>Preguntas del tema</h1>
+    </div>
+    <div class="contenido">
+        <h2>¿Cómo aplico la Fuerza?</h2>
+    
+    <!--explicación-->
+        <h3>Explicación rápida: la fuerza es lo que usamos para empujar, jalar o cambiar algo. Y que 
+        dependiendo de la cantidad de fuerza, del peso del objeto, y de hacia dónde se aplica, puede 
+        cambiar su movimiento o forma.</h3>
+        
+    <!--parrafos-->
+        <p>Ahora contesta las siguientes preguntas</p>
+        
+            <!--class:espacio_pregunta-->
+        <!--pregunta 1-->
+        <section id="p0" class="espacio_pregunta">
+            <h4>Si tienes que empujar una puerta para abrirla, ¿estás aplicando una fuerza? ¿Qué pasa con la puerta cuando la empujas?</h4>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> a) Sí, aplicas fuerza, y la puerta se mueve.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> b) No, no aplicas fuerza, y la puerta no se mueve.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> c) No, aplicas fuerza, pero la puerta no se mueve.
+            </label>
+        </section>
+
+        <!--pregunta 2-->
+        <section id="p1" class="espacio_pregunta">
+            <h4>Si intentas mover una mesa pesada empujándola, ¿necesitas más o menos fuerza que para mover una silla?</h4>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> a) La misma cantidad de fuerza.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> b) Menos fuerza, porque es más liviana.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> c) Más fuerza, porque la mesa es más pesada.
+            </label>
+        </section>        
+
+        <!--pregunta 3-->
+        <section id="p2" class="espacio_pregunta">
+            <h4>Si estás jugando con un resorte y lo estiras, ¿qué tipo de fuerza estás aplicando? ¿Qué pasa con el resorte? </h4>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> a) Fuerza de atracción, y el resorte se deforma.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> b) Fuerza de compresión, y el resorte se rompe.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> c) Fuerza de empuje, y el resorte se vuelve más corto.
+            </label>
+        </section>        
+
+        <!--pregunta 4-->
+        <section id="p3" class="espacio_pregunta">
+            <h4>Cuando tiras de una cuerda en un juego de tira y afloja, ¿qué fuerza estás aplicando? ¿Cómo cambia el movimiento de la cuerda?</h4>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> a) Fuerza de empuje, y la cuerda se aleja.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> b) Fuerza de atracción, y la cuerda se mueve hacia ti.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> c) No aplicas fuerza, y la cuerda no se mueve.
+            </label>
+        </section>        
+
+        <!--pregunta 5-->
+        <section id="p4" class="espacio_pregunta">
+            <h4>Si empujas un carrito de supermercado vacío y otro lleno, ¿en cuál necesitas usar más fuerza?</h4>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> a) En el carrito vacío, porque es más difícil de mover.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> b) En el carrito lleno, porque tiene más peso.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> c) En ambos carritos necesitas la misma fuerza.
+            </label>
+        </section>
+
+    <!--boton para corregir-->
+            <!--class: corregir-->
+        <button onclick="corregir()" class="corregir">CORREGIR</button>
+        
+    <!--respuestas correctas-->
+        <h2>Número de respuestas correctas<span id="resultado"></span></h2>
+    </div>
+    <div class="contenedor-botones">
+        <a href="medición_y_aplicación.html" class="boton"><</a>
+        <a href="qué_es.html" class="boton">></a>
+        <a href="../fuerza.html" class="boton">Regresar</a>
+    <!--div:botones-->
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Creador de la página: <strong>Miguel Angel Jimenez Pérez</strong></p>
+            <p>Grupo: <strong>5Bm</strong></p>
+            <p>SyMec</p>
+            <p>Redes sociales: <strong>Instagram:</strong> <a href="https://instagram.com/miguel_jp1003" target="_blank">@miguel_jp1003</a></p>
+            <p>Escuela: <strong>Cetis 141 "DR. Manuel Gamio"</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

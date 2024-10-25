@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/fondo.jfif" type="image/jfif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>materia</title>
+    <link rel="stylesheet" href="preguntas.css">
+    <script src="../scrip/materia.js"></script>
+</head>
+<body>
+    <div>
+        <h1 class="encabezado">Preguntas del tema</h1>
+    </div>
+    <div class="contenido">
+        <h2>¿Los 3 estados de la Materia?</h2>
+    
+    <!--explicación-->
+        <h3>Explicación rápida: la materia es todo lo que podemos ver, tocar o sentir, y que puede estar en tres estados: sólido, líquido y gas. También menciona que la materia puede cambiar de estado dependiendo de factores como la temperatura.</h3>
+    
+    <!--parrafo-->
+        <p>Ahora responde las preguntas:</p>
+        
+            <!--class:espacio_pregunta-->
+        <!--pregunta 1-->
+        <section id="p0" class="espacio_pregunta">
+            <h4>1. Cuando tienes un cubo de hielo en la mano, ¿en qué estado está el agua?</h4>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> a) Líquido
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> b) Sólido
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> c) Gaseoso
+            </label>
+        </section>
+        
+        <!--pregunta 2-->
+        <section id="p1" class="espacio_pregunta">
+            <h4>2. ¿En qué estado está el agua dentro de una botella?</h4>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> a) Sólido
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> b) Gaseoso
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> c) Líquido
+            </label>
+        </section>
+        
+        <!--pregunta 3-->
+        <section id="p2" class="espacio_pregunta">
+            <h4>3. Si pones agua en una olla y la calientas mucho, ¿en qué se convierte?</h4>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> a) Vapor
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> b) Hielo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> c) Agua
+            </label>
+        </section>
+        
+        <!--pregunta 4-->
+        <section id="p3" class="espacio_pregunta">
+            <h4>4. ¿Qué está pasando con los átomos del agua cuando se convierte en vapor?</h4>
+            <div>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> a) Los átomos se separan y se mueven más rápido
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> b) Los átomos se juntan y se mueven más lento
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> c) Los átomos permanecen iguales, pero se enfrían
+                </label>
+            </div>
+        
+        <!--pregunta 5-->
+        <section id="p4" class="espacio_pregunta">
+            <h4>5. Si tienes una bola de plastilina, ¿en qué estado de la materia está al ser aplastada?</h4>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> a) Sólido
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> b) Líquido
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> c) Gaseoso
+            </label>
+        </section>
+    
+    <!--boton para corregir-->
+            <!--class:corregir-->
+        <button onclick="corregir()" class="corregir">CORREGIR</button>
+    
+    <!--respuestas correctas-->
+        <h2>Número de respuestas correctas<span id="resultado"></span></h2>
+    </div>
+    <div class="contenedor-botones">
+        <a href="cambio de estados.html" class="boton"><</a>
+        <a href="qué es.html" class="boton">></a>
+        <a href="../materia..html" class="boton">Regresar</a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Creador de la página: <strong>Miguel Angel Jimenez Pérez</strong></p>
+            <p>Grupo: <strong>5Bm</strong></p>
+            <p>SyMec</p>
+            <p>Redes sociales: <strong>Instagram:</strong> <a href="https://instagram.com/miguel_jp1003" target="_blank">@miguel_jp1003</a></p>
+            <p>Escuela: <strong>Cetis 141 "DR. Manuel Gamio"</strong></p>
+        </div>
+    </footer>
+</body>
+</html>
